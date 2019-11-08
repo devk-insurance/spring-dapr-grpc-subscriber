@@ -1,0 +1,7 @@
+grpc:
+  port: 12302
+#spring:
+#  devtools:
+#    add-properties: false
+#    livereload:
+#      enabled: false
