@@ -6,4 +6,4 @@ The subscriber listens to the redis stream "MAIN" and saves all incoming message
 
   - install and initialize Dapr
   - mvn clean package
-  - dapr run --protocol grpc --app-id subscriber --app-port 12302 -- java -jar dapr-publish.jar
+  - dapr run --protocol grpc --app-id subscriber --app-port 12302 -- java -jar dapr-subscribe.jar
