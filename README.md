@@ -6,5 +6,5 @@ The subscriber listens to the redis topic "MAIN" and saves all incoming messages
 
   - install and initialize [Dapr](https://github.com/dapr/dapr)
   - mvn clean package
-  - dapr run --protocol grpc --app-id subscriber --app-port 12302 -- java -jar dapr-subscribe.jar
+  - dapr run --protocol grpc --app-id subscriber --app-port 12302 -- java -jar target/dapr-subscribe.jar
   - make sure the [Publisher](https://github.com/devk-insurance/spring-dapr-grpc-publisher) is running
